@@ -1,0 +1,14 @@
+{
+  "name": "flight-request-app",
+  "version": "1.0.0",
+  "description": "Node.js project configuration, including dependencies and scripts.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "install": "bash run.sh"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2"
+  }
+}
